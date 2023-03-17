@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos</title>
+    <link rel="shortcut icon" href="./assets/cat.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">inicio</a>
+            <a href="">contacto</a>
+            <a href="">mas</a>
+        </nav>
+        <h1>Galeria de arte</h1>
+    </header>
+    <main>
+        <div class="div-1">
+            <section class="section">
+                <h2>astronauta gato 1</h2>
+                <img src="./assets/gato-uno.jpeg" alt="gato-1">
+                <ul>
+                    <li>opcion 1</li>
+                    <li>opcion 2</li>
+                    <li>opcion 3</li>
+                </ul>
+                <a href="#">ver mas</a>
+            </section>
+            <section class="section">
+                <h2>astronauta gato 2</h2>
+                <img src="./assets/gato-dos.jpeg" alt="gato-2">
+                <ul>
+                    <li>opcion 1</li>
+                    <li>opcion 2</li>
+                    <li>opcion 3</li>
+                </ul>
+                <a href="#">ver mas</a>
+            </section>
+            <section class="section">
+                <h2>astronauta gato 3</h2>
+                <img src="./assets/gato-tres.jpeg" alt="gato-3">
+                <ul>
+                    <li>opcion 1</li>
+                    <li>opcion 2</li>
+                    <li>opcion 3</li>
+                </ul>
+                <a href="#">ver mas</a>
+            </section>
+        </div>
+        <div class="div-2">
+            <table>
+                <caption>fechas de inscripciones</caption>
+                <thead>
+                    <tr>
+                        <th>fecha</th>
+                        <th>curso</th>
+                        <th>precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10/05/23</td>
+                        <td>introduccion al arte</td>
+                        <td>$15000</td>
+                    </tr>
+                    <tr>
+                        <td>15/05/23</td>
+                        <td>arte nivel I</td>
+                        <td>$25000</td>
+                    </tr>
+                    <tr>
+                        <td>20/05/23</td>
+                        <td>arte nivel II</td>
+                        <td>$30000</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <form action="./showData.html">
+                <p>dejanos tus datos</p>
+                <label for="">nombre:<input type="text"></label>
+                <label for="">apellido:<input type="text"></label>
+                <label for="">email:<input type="text"></label>
+                <fieldset>
+                    <legend>deseas recibir informacion?</legend>
+                    <label for="yes"> <input type="radio" name="question" id="yes" value="YES"> yes</label>
+                    <label for="no"> <input type="radio" name="questions" id="no" value="NO"> no</label>
+                </fieldset>
+                <label for=""><input type="checkbox" name="" id="">acepto terminos y condiciones </label>
+                <input type="submit" value="enviar" id="send">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>MindHuB MERN cohorte</p>
+        <p>Stack</p>
+        <a href="mailto:arte@academia.com"> arte@academia.com</a>
+    </footer>
+</body>
+
+</html>
